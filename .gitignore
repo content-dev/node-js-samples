@@ -1,0 +1,4 @@
+node_modules
+package-lock.json
+query-employees/node_modules
+create-employees/node_modules
