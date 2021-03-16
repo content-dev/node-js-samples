@@ -25,8 +25,6 @@ async function run() {
 
     // Query Employees data
     sql = `SELECT * FROM Employees`;
-    binds = {};
-    options = {};
 
     result = await connection.execute(sql);
     console.log('Retrieved data from ATP database...');
